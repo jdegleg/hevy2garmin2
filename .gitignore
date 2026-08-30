@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Local Garmin workout dumps from scripts/dump_garmin_workout.py (personal data)
+manual.json
+sync.json
+*.workout.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project private
+docs/plans/
+.claude/
+*.log
+
+# Tokens (never commit)
+.garminconnect/
+.garmin-auth/
+
+# FIT output
+fit_output/
+
+# SQLite DB
+*.db
+*.sqlite
+worker/.wrangler/
+worker-di/.wrangler/
+
+# Claude Code local instructions (never committed)
+CLAUDE.md
